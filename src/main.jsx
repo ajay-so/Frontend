@@ -13,7 +13,8 @@ const root = createRoot(document.getElementById("root"));
 
 root.render(
   <BrowserRouter>
-    <div className="d-flex flex-column min-vh-100"> //this code give me the chatgpt because the footer not fixed the right position
+  {/* this code give me the chatgpt because the footer not fixed the right position */}
+    <div className="d-flex flex-column min-vh-100"> 
       <Navbar />
       <main className="flex-grow-1">
         <Routes>
